@@ -4,7 +4,7 @@ config = wezterm.config_builder()
 
 config = {
   automatically_reload_config = true,
-  enable_tab_bar = false, -- no tab-bar
+  hide_tab_bar_if_only_one_tab = true,
   window_close_confirmation = "NeverPrompt",
   window_decorations = "RESIZE", -- disable the title bar but enable resizable border
   default_cursor_style = "BlinkingBar",
